@@ -14,6 +14,41 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Look at the example, you have to create a new class that is conform to `StoryboardEnum`.
 
 ```
+import StoryboardEnum
+
+enum Storyboard: StoryboardEnum {
+
+case Main
+
+func getName() -> String {
+switch self {
+case Main:
+return "Main"
+}
+}
+
+func getVC() -> UIViewController? {
+let storyboard = UIStoryboard(name: getName(), bundle: NSBundle.mainBundle())
+
+var vc: UIViewController?
+
+switch self {
+case Main:
+vc = storyboard.instantiateViewControllerWithIdentifier(getName()) as? ViewController
+
+}
+
+print(vc)
+
+return vc
+}
+}
+```
+
+Then you have only to call
+
+```
+Storyboard.Name.router(window)
 ```
 
 ## Installation
