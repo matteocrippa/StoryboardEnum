@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 Look at the example, you have to create a new class that is conform to `StoryboardEnum`.
 
-```
+```swift
 import StoryboardEnum
 
 enum Storyboard: StoryboardEnum {
@@ -38,8 +38,6 @@ vc = storyboard.instantiateViewControllerWithIdentifier(getName()) as? ViewContr
 
 }
 
-print(vc)
-
 return vc
 }
 }
@@ -47,7 +45,7 @@ return vc
 
 Then you have only to call
 
-```
+```swift
 Storyboard.Name.router(window)
 ```
 
