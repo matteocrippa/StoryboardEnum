@@ -9,7 +9,12 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Usage
+
+Look at the example, you have to create a new class that is conform to `StoryboardEnum`.
+
+```
+```
 
 ## Installation
 
@@ -22,7 +27,7 @@ pod "StoryboardEnum"
 
 ## Author
 
-Matteo, matteo@boostco.de
+Matteo Crippa, @ghego20
 
 ## License
 

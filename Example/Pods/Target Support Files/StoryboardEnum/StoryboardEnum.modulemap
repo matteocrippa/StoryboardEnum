@@ -1,0 +1,6 @@
+framework module StoryboardEnum {
+  umbrella header "StoryboardEnum-umbrella.h"
+
+  export *
+  module * { export * }
+}

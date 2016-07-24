@@ -1,0 +1,16 @@
+PODS:
+  - StoryboardEnum (0.1.0)
+
+DEPENDENCIES:
+  - StoryboardEnum (from `../`)
+
+EXTERNAL SOURCES:
+  StoryboardEnum:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StoryboardEnum: d069a048bfbd6d805406aa1e5812e72c0b58aaa7
+
+PODFILE CHECKSUM: 2758c549258413feb33d46f9fa1a6cfcc0d31445
+
+COCOAPODS: 1.0.1

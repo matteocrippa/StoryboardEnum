@@ -1,0 +1,6 @@
+framework module Pods_StoryboardEnum_Tests {
+  umbrella header "Pods-StoryboardEnum_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
