@@ -1,6 +1,6 @@
 # StoryboardEnum
 
-[![CI Status](http://img.shields.io/travis/Matteo/StoryboardEnum.svg?style=flat)](https://travis-ci.org/Matteo/StoryboardEnum)
+[![CI Status](http://img.shields.io/travis/matteocrippa/StoryboardEnum.svg?style=flat)](https://travis-ci.org/matteocrippa/StoryboardEnum)
 [![Version](https://img.shields.io/cocoapods/v/StoryboardEnum.svg?style=flat)](http://cocoapods.org/pods/StoryboardEnum)
 [![License](https://img.shields.io/cocoapods/l/StoryboardEnum.svg?style=flat)](http://cocoapods.org/pods/StoryboardEnum)
 [![Platform](https://img.shields.io/cocoapods/p/StoryboardEnum.svg?style=flat)](http://cocoapods.org/pods/StoryboardEnum)
