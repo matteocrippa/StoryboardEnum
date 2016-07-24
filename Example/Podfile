@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'StoryboardEnum_Example' do
+  pod 'StoryboardEnum', :path => '../'
+
+  target 'StoryboardEnum_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
