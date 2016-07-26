@@ -8,22 +8,16 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StoryboardEnum'
-  s.version          = '0.1.1'
-  s.summary          = 'A storyboard enum handler'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.1.2'
+  s.summary          = 'Manage storyboard using a simple enum'
 
   s.description      = <<-DESC
-An easy way to manage storyboard in swift thanks to Enum
+An easy way to manage storyboards in your Swift project thanks to Enum
                        DESC
 
   s.homepage         = 'https://github.com/matteocrippa/StoryboardEnum'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Matteo' => '' }
+  s.author           = { 'Matteo Crippa' => '' }
   s.source           = { :git => 'https://github.com/matteocrippa/StoryboardEnum.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/@ghego20'
 
