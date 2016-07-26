@@ -18,35 +18,26 @@ import StoryboardEnum
 
 enum Storyboard: StoryboardEnum {
 
-case Main
+    case Main
 
-func getName() -> String {
-switch self {
-case Main:
-return "Main"
-}
-}
+    var story: StoryboardVC {
+        return StoryboardVC(inWindow: UIApplication.sharedApplication().windows.first!)
+    }
 
-func getVC() -> UIViewController? {
-let storyboard = UIStoryboard(name: getName(), bundle: NSBundle.mainBundle())
+    var vc: UIViewController? {
+        switch self {
+            case Main:
+            return story.getVC(fromStoryboard: "Main", withIdentifier: "Main")
+        }
+    }
 
-var vc: UIViewController?
-
-switch self {
-case Main:
-vc = storyboard.instantiateViewControllerWithIdentifier(getName()) as? ViewController
-
-}
-
-return vc
-}
 }
 ```
 
 Then you have only to call
 
 ```swift
-Storyboard.Name.router(window)
+Storyboard.Name.show()
 ```
 
 ## Installation

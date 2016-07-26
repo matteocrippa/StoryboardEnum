@@ -13,26 +13,15 @@ enum Storyboard: StoryboardEnum {
     
     case Main
     
-    func getName() -> String {
+    var story: StoryboardVC {
+        return StoryboardVC(inWindow: UIApplication.sharedApplication().windows.first!)
+    }
+        
+    var vc: UIViewController? {
         switch self {
         case Main:
-            return "Main"
+            return story.getVC(fromStoryboard: "Main", withIdentifier: "Main")
         }
     }
-    
-    func getVC() -> UIViewController? {
-        let storyboard = UIStoryboard(name: getName(), bundle: NSBundle.mainBundle())
-        
-        var vc: UIViewController?
-        
-        switch self {
-        case Main:
-            vc = storyboard.instantiateViewControllerWithIdentifier(getName()) as? ViewController
 
-        }
-        
-        print(vc)
-        
-        return vc
-    }
 }
