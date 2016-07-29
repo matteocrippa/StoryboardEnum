@@ -11,9 +11,11 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+        // we keep default value here
         super.viewDidLoad()
     }
 
+    // even here too, it's not under sut
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
