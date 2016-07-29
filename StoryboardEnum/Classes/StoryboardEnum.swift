@@ -6,7 +6,6 @@
 //  Copyright © 2016 boostco.de All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public struct StoryboardVC {
