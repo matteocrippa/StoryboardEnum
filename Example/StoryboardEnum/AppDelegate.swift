@@ -14,9 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
         // setup window bounds
         window = UIWindow(frame:UIScreen.mainScreen().bounds)
         
+        // show the main storyboard
         Storyboard.Main.show()
         
         return true
