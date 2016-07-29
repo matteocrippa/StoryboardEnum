@@ -11,7 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Usage
 
-First of all make sure that inside your `AppDelegate` func `` we have this snippet:
+First of all make sure that inside your `AppDelegate` func `didFinishLaunchingWithOptions` we have this snippet:
 
 ```swift
 window = UIWindow(frame:UIScreen.mainScreen().bounds)
