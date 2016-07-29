@@ -11,7 +11,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Usage
 
-Look at the example, you have to create a new class that is conform to `StoryboardEnum`.
+First of all make sure that inside your `AppDelegate` func `` we have this snippet:
+
+```swift
+window = UIWindow(frame:UIScreen.mainScreen().bounds)
+```
+
+Then you have to create a new enum of type `StoryboardEnum`.
 
 ```swift
 import StoryboardEnum
@@ -34,7 +40,7 @@ enum Storyboard: StoryboardEnum {
 }
 ```
 
-Then you have only to call
+Finally you have only to call wherever you want to present the view controller:
 
 ```swift
 Storyboard.Name.show()
