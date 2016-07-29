@@ -1,14 +1,6 @@
-#
-# Be sure to run `pod lib lint StoryboardEnum.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'StoryboardEnum'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Manage storyboard using a simple enum'
 
   s.description      = <<-DESC
