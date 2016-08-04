@@ -55,6 +55,10 @@ Storyboard.Name.show(inNavigation: true)
 
 *IMPORTANT* If you plan to omit the `identifier` of the VC, please check that there is at least one VC set to be `Initial view controller` in your storyboard to avoid the app to crash.
 
+## Extra
+
+I've added a nice way to embed a VC in navigationController, using `embedInNavigation()` func you will received your navigation w/ the view inside.
+
 ## Installation
 
 StoryboardEnum is available through [CocoaPods](http://cocoapods.org). To install

@@ -44,6 +44,7 @@ public protocol StoryboardEnum {
 
 // MARK: - Extension
 extension StoryboardEnum {
+    
     // show the current vc
     public func show(inNavigation navigation: Bool = false) {
         
@@ -54,13 +55,20 @@ extension StoryboardEnum {
         
         // check if we have to embed in navgation
         if navigation {
-            let nav = UINavigationController()
-            nav.viewControllers = [vc!]
-            viewController = nav
+            viewController = vc!.embedInNavigation()
         }
         
         // set vc as rootVc
         window.rootViewController = viewController
         window.makeKeyAndVisible()
+    }
+}
+
+// MARK: - UIViewController
+public extension UIViewController {
+    func embedInNavigation() -> UINavigationController {
+        let nav = UINavigationController()
+        nav.viewControllers = [self]
+        return nav
     }
 }
