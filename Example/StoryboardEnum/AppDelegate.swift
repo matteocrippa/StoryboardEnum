@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame:UIScreen.mainScreen().bounds)
         
         // show the main storyboard
-        Storyboard.Main.show()
+        Storyboard.Main.show(inNavigation: true)
         
         return true
     }

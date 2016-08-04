@@ -45,11 +45,22 @@ public protocol StoryboardEnum {
 // MARK: - Extension
 extension StoryboardEnum {
     // show the current vc
-    public func show() {
+    public func show(inNavigation navigation: Bool = false) {
+        
+        var viewController = vc
+        
         // try to retrieve current window
         guard let window = story.window else { return }
+        
+        // check if we have to embed in navgation
+        if navigation {
+            let nav = UINavigationController()
+            nav.viewControllers = [vc!]
+            viewController = nav
+        }
+        
         // set vc as rootVc
-        window.rootViewController = vc
+        window.rootViewController = viewController
         window.makeKeyAndVisible()
     }
 }

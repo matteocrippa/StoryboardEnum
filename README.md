@@ -46,7 +46,14 @@ Finally you have only to call wherever you want to present the view controller:
 Storyboard.Name.show()
 ```
 
-If you plan to omit the `identifier` of the VC, please check that there is at least one VC set to be `Initial view controller` in your storyboard to avoid the app to crash.
+you can even show the vc embedded in a navigation using:
+
+```swift
+Storyboard.Name.show(inNavigation: true)
+```
+
+
+*IMPORTANT* If you plan to omit the `identifier` of the VC, please check that there is at least one VC set to be `Initial view controller` in your storyboard to avoid the app to crash.
 
 ## Installation
 
