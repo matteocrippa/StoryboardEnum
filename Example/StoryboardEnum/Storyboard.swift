@@ -14,18 +14,18 @@ enum Storyboard: StoryboardEnum {
     // pass inside story your window
     var story: StoryboardVC {
         // this allow you to avoid to call/pass always window
-        return StoryboardVC(inWindow: UIApplication.sharedApplication().windows.first!)
+        return StoryboardVC(inWindow: UIApplication.shared.windows.first!)
     }
     
     // set at least a case
-    case Main
+    case main
     
     // then set the vc that will be returned
     var vc: UIViewController? {
         // drill down the cases (here we have only one)
         switch self {
             // let's check for main
-        case Main:
+        case main:
             // according our storyboard we have to refer to Main and w/ identifier Main
             return story.getVC(fromStoryboard: "Main", withIdentifier: "Main")
         }

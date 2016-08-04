@@ -23,12 +23,12 @@ public struct StoryboardVC {
     public func getVC(fromStoryboard name: String, withIdentifier identifier: String? = nil) -> UIViewController? {
         
         // retrieve storyboard according name
-        let storyboard = UIStoryboard(name: name, bundle: NSBundle.mainBundle())
+        let storyboard = UIStoryboard(name: name, bundle: Bundle.main)
         
         // if an idientifier isset ask for that 
         if let idx = identifier {
             // return it
-            return storyboard.instantiateViewControllerWithIdentifier(idx)
+            return storyboard.instantiateViewController(withIdentifier: idx)
         }
         // otherwise initial view controller is used
         return storyboard.instantiateInitialViewController()
