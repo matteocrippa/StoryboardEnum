@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## StoryboardEnum
 
-Copyright (c) 2016 Matteo <matteo@boostco.de>
+Copyright (c) 2016 Matteo Crippa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

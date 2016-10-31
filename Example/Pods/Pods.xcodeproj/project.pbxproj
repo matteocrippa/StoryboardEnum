@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1516704A4F5A6ABCF989AD400D85ED37 /* StoryboardEnum-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4C5E5CA8D34EE0B056823397726069 /* StoryboardEnum-dummy.m */; };
 		3783D0CA6900E7233B76896E9477EEBF /* Pods-StoryboardEnum_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 019EAAD8EBB5E421E65DA9A8CAD56C7B /* Pods-StoryboardEnum_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44A781725FD779631B7C23DF44F6DF9F /* Pods-StoryboardEnum_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56411DBF85C0E52F6CEC5A97C19EDDA8 /* Pods-StoryboardEnum_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		518C11F51EED3C4AF3241BF853E45638 /* StoryboardEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98FD9BF34DB9838B71774C67FA494F /* StoryboardEnum.swift */; };
 		9198314F9E076CBDBBBE563E6F9074B4 /* StoryboardEnum-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD2BC5960A2877548465A1A256248CE /* StoryboardEnum-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC5AD5F9524DD66923BDF010FF0B8723 /* StoryboardEnum-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4C5E5CA8D34EE0B056823397726069 /* StoryboardEnum-dummy.m */; };
+		9A783F5C616BC011D5AAE6365B59C22D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		B0646C1EEDDD48E4DD7E6EEC6B272C9F /* Pods-StoryboardEnum_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2345C0572FF76176323AD74B410CB /* Pods-StoryboardEnum_Tests-dummy.m */; };
-		B06A97326E0A05954CEDFFB4B3DE8D1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B4FD89339F6D17F23BD9A4502CF566AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		D7C1A7EF867DBF6B8E9BB153ED378AB7 /* Pods-StoryboardEnum_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7EFD4A63B15A77539316E3252F0694 /* Pods-StoryboardEnum_Example-dummy.m */; };
-		F26ACCB93B2D0E0C5945DDFEDFC4EA39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		F3B4FC34DD621D110081DFE5FAE33277 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D7C415FF70D687428853A04DE3327E05 /* StoryboardEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD349B6F7DE503D1DD30B515967D1F9 /* StoryboardEnum.swift */; };
+		EBF0F415AF5369926A854EDFAE27034B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 		019EAAD8EBB5E421E65DA9A8CAD56C7B /* Pods-StoryboardEnum_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StoryboardEnum_Example-umbrella.h"; sourceTree = "<group>"; };
 		1135968D8A1707326DE4B6D85B8A6EB7 /* Pods-StoryboardEnum_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StoryboardEnum_Tests.modulemap"; sourceTree = "<group>"; };
 		1946E9F848506B070366B3A97A47FB16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F98FD9BF34DB9838B71774C67FA494F /* StoryboardEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoryboardEnum.swift; sourceTree = "<group>"; };
 		20CD906342B22A02185ADA9272684FA0 /* Pods-StoryboardEnum_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StoryboardEnum_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		237018E1665FE885305EDB41BDCABC7F /* StoryboardEnum.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StoryboardEnum.modulemap; sourceTree = "<group>"; };
 		2840177534295AFB154BBE870C74AAE9 /* Pods-StoryboardEnum_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StoryboardEnum_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -52,10 +51,11 @@
 		891892287501CDA34EB285B2FCFC9546 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DF2345C0572FF76176323AD74B410CB /* Pods-StoryboardEnum_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StoryboardEnum_Tests-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD349B6F7DE503D1DD30B515967D1F9 /* StoryboardEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoryboardEnum.swift; sourceTree = "<group>"; };
 		BF7EFD4A63B15A77539316E3252F0694 /* Pods-StoryboardEnum_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StoryboardEnum_Example-dummy.m"; sourceTree = "<group>"; };
 		C09D2AC3FC0FFDF5561EAEB26783C4FC /* Pods-StoryboardEnum_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoryboardEnum_Example-resources.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD4C5E5CA8D34EE0B056823397726069 /* StoryboardEnum-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StoryboardEnum-dummy.m"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF3167B11D67CBF05C1F8F8E26BA81B9 /* Pods-StoryboardEnum_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoryboardEnum_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3A0D428046ECC232FEBD0CFAF3E1AB4 /* StoryboardEnum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StoryboardEnum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FA9CD91EF0362D12B331C91D9B195E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B4FC34DD621D110081DFE5FAE33277 /* Foundation.framework in Frameworks */,
+				EBF0F415AF5369926A854EDFAE27034B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26ACCB93B2D0E0C5945DDFEDFC4EA39 /* Foundation.framework in Frameworks */,
+				B4FD89339F6D17F23BD9A4502CF566AC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,33 +85,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B06A97326E0A05954CEDFFB4B3DE8D1A /* Foundation.framework in Frameworks */,
+				9A783F5C616BC011D5AAE6365B59C22D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3167754105E52B053D7974786F17E1A3 /* Classes */ = {
+		365FC9F37689EF7D7DB51424E50C1E7D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1F98FD9BF34DB9838B71774C67FA494F /* StoryboardEnum.swift */,
+				9FD349B6F7DE503D1DD30B515967D1F9 /* StoryboardEnum.swift */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		4D27281F4C10D9814A61424A3F0ED5E3 /* StoryboardEnum */ = {
 			isa = PBXGroup;
 			children = (
-				3167754105E52B053D7974786F17E1A3 /* Classes */,
+				365FC9F37689EF7D7DB51424E50C1E7D /* Classes */,
 			);
 			path = StoryboardEnum;
 			sourceTree = "<group>";
@@ -157,6 +149,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -181,7 +181,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69118213FD8BD002C1291E353E561283 /* Build configuration list for PBXNativeTarget "StoryboardEnum" */;
 			buildPhases = (
-				327E0323F34F9F8CBB4735F440F61A1C /* Sources */,
+				C76BC7E5E74BA4171DD50FA30A95214B /* Sources */,
 				F54A29766F4A6B01FEB93CB306B1D28E /* Frameworks */,
 				2E35515136A5E991141406392E9613B8 /* Headers */,
 			);
@@ -312,14 +312,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					4C9A05ABB62381ED39E5A133A8AE4C8F = {
-						LastSwiftMigration = 0810;
-					};
-					EED0D4FB2A037C27864A816AE972B646 = {
-						LastSwiftMigration = 0810;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -341,15 +333,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		327E0323F34F9F8CBB4735F440F61A1C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				518C11F51EED3C4AF3241BF853E45638 /* StoryboardEnum.swift in Sources */,
-				AC5AD5F9524DD66923BDF010FF0B8723 /* StoryboardEnum-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		451F8208C60EB9D24CC5FA649A51D612 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,6 +349,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C76BC7E5E74BA4171DD50FA30A95214B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1516704A4F5A6ABCF989AD400D85ED37 /* StoryboardEnum-dummy.m in Sources */,
+				D7C415FF70D687428853A04DE3327E05 /* StoryboardEnum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -378,49 +370,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1FA2F151551B9830DE1B474E40CEF5AE /* Release */ = {
+		1FB57EF34455849CC6FA978EFEAFA174 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61C6C1671B40A6EE46284B99CED19651 /* StoryboardEnum.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -446,45 +402,13 @@
 			};
 			name = Release;
 		};
-		45CFB615FE7288B8DCDAB2B2B38B5529 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5244E370C52BBA64AE1EE0C15A9C335D /* Pods-StoryboardEnum_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-StoryboardEnum_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StoryboardEnum_Example/Pods-StoryboardEnum_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_StoryboardEnum_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		52882DE22C67C36AB5EBB5A747C78F31 /* Release */ = {
+		6A5F20506A0EAFD682BE926E73D36B47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 012BE417F1AEDE1968F3AC599691F592 /* Pods-StoryboardEnum_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -513,40 +437,7 @@
 			};
 			name = Release;
 		};
-		57ECB1033BDF50F79916FDEA91FBB544 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF3167B11D67CBF05C1F8F8E26BA81B9 /* Pods-StoryboardEnum_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-StoryboardEnum_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StoryboardEnum_Tests/Pods-StoryboardEnum_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_StoryboardEnum_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -564,6 +455,47 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -583,18 +515,21 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E72921B62467C59057A1DC0114110AAF /* Debug */ = {
+		D2B400B432F4959F15D3A8D544FAA21F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D18F3D5ED12A0E216217D21BDBE7700 /* Pods-StoryboardEnum_Example.debug.xcconfig */;
+			baseConfigurationReference = 5244E370C52BBA64AE1EE0C15A9C335D /* Pods-StoryboardEnum_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -607,7 +542,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-StoryboardEnum_Example/Pods-StoryboardEnum_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -615,19 +550,54 @@
 				PRODUCT_NAME = Pods_StoryboardEnum_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD1DFDE7298C6F4C0BA22A8F4CA39FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF3167B11D67CBF05C1F8F8E26BA81B9 /* Pods-StoryboardEnum_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StoryboardEnum_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StoryboardEnum_Tests/Pods-StoryboardEnum_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StoryboardEnum_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EB259A50BECF245F80CF7C3F9350DC8A /* Debug */ = {
+		E95D68856A392C137B3B43B046A5BD0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61C6C1671B40A6EE46284B99CED19651 /* StoryboardEnum.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -654,14 +624,50 @@
 			};
 			name = Debug;
 		};
+		EEF2C2F82B2B4E290D13C6BC83C0172C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D18F3D5ED12A0E216217D21BDBE7700 /* Pods-StoryboardEnum_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StoryboardEnum_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StoryboardEnum_Example/Pods-StoryboardEnum_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StoryboardEnum_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -669,8 +675,8 @@
 		626024A3FF9C3B11F6222C48A171DB3F /* Build configuration list for PBXNativeTarget "Pods-StoryboardEnum_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E72921B62467C59057A1DC0114110AAF /* Debug */,
-				45CFB615FE7288B8DCDAB2B2B38B5529 /* Release */,
+				EEF2C2F82B2B4E290D13C6BC83C0172C /* Debug */,
+				D2B400B432F4959F15D3A8D544FAA21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -678,8 +684,8 @@
 		69118213FD8BD002C1291E353E561283 /* Build configuration list for PBXNativeTarget "StoryboardEnum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB259A50BECF245F80CF7C3F9350DC8A /* Debug */,
-				1FA2F151551B9830DE1B474E40CEF5AE /* Release */,
+				E95D68856A392C137B3B43B046A5BD0B /* Debug */,
+				1FB57EF34455849CC6FA978EFEAFA174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -687,8 +693,8 @@
 		6F8D896DC9DCD9FDE43A64469E2FC07D /* Build configuration list for PBXNativeTarget "Pods-StoryboardEnum_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57ECB1033BDF50F79916FDEA91FBB544 /* Debug */,
-				52882DE22C67C36AB5EBB5A747C78F31 /* Release */,
+				DD1DFDE7298C6F4C0BA22A8F4CA39FFE /* Debug */,
+				6A5F20506A0EAFD682BE926E73D36B47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
