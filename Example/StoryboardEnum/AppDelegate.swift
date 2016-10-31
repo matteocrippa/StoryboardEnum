@@ -15,25 +15,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     // didFinishLaunchingWithOptions
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         // setup window bounds
-        window = UIWindow(frame:UIScreen.mainScreen().bounds)
+        window = UIWindow(frame:UIScreen.main.bounds)
         
         // show the main storyboard
-        Storyboard.Main.show(inNavigation: true)
+        Storyboard.main.show(inNavigation: true)
         
         return true
     }
 
-    func applicationWillResignActive(application: UIApplication) {}
+    func applicationWillResignActive(_ application: UIApplication) {}
 
-    func applicationDidEnterBackground(application: UIApplication) {}
+    func applicationDidEnterBackground(_ application: UIApplication) {}
 
-    func applicationWillEnterForeground(application: UIApplication) {}
+    func applicationWillEnterForeground(_ application: UIApplication) {}
 
-    func applicationDidBecomeActive(application: UIApplication) {}
+    func applicationDidBecomeActive(_ application: UIApplication) {}
 
-    func applicationWillTerminate(application: UIApplication) {}
+    func applicationWillTerminate(_ application: UIApplication) {}
 
 }
