@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'StoryboardEnum'
-  s.version          = '0.1.5'
+  s.version          = '0.2.0'
   s.summary          = 'Manage storyboard using a simple enum'
 
   s.description      = <<-DESC
